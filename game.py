@@ -139,7 +139,9 @@ if __name__ == '__main__':
     x_wins = 0
     o_wins = 0
     tie = 0
-    for _ in range(10):
+    iteration_num = range(10)
+
+    for _ in iteration_num:
         x_player = GeniusComputerPlayer('X')
         o_player = RandomComputerPlayer('O')   # if you want to play youself change RandomComputerPlayer to HumanPlayer
         t = TicTacToe()
