@@ -130,8 +130,8 @@ def play(game, x_player, o_player, print_game=True):
 
 
 # if __name__ == '__main__':
-#     x_player = SmartComputerPlayer('X')
-#     o_player = RandomComputerPlayer('O')
+#     x_player = GeniusComputerPlayer('X')
+#     o_player = RandomComputerPlayer('O')   # if you want to play youself change RandomComputerPlayer to HumanPlayer
 #     t = TicTacToe()
 #     play(t, x_player, o_player, print_game=True)
 
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     tie = 0
     for _ in range(10):
         x_player = GeniusComputerPlayer('X')
-        o_player = RandomComputerPlayer('O')
+        o_player = RandomComputerPlayer('O')   # if you want to play youself change RandomComputerPlayer to HumanPlayer
         t = TicTacToe()
         result = play(t, x_player, o_player, print_game=False)
         if result == 'X':
