@@ -1,3 +1,7 @@
+"""Implementation of command-line TicTacToe by Abdul Basit Tonmoy
+Spacial Thanks to Kylie Ying"""
+
+
 import time
 import math
 from player import HumanPlayer, RandomComputerPlayer, GeniusComputerPlayer
