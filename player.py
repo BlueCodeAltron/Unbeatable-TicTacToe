@@ -1,3 +1,7 @@
+"""Implementation of command-line TicTacToe by Abdul Basit Tonmoy
+Spacial Thanks to Kylie Ying"""
+
+
 import math
 import random
 
